@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+background-color:rgb(209, 194, 232);
+ height: 100vh;
+
+  display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.box{
+    border: 2px solid rgb(119, 230, 193);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+h1{
+    color: rgb(41, 4, 126);
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.box section {
+    height: 240px;
+  padding-left: 20px; 
+  padding-top: 10px ;
+}
+.box  section>label{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(68, 84, 120);
+}
+.box section>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.chack input{
+    margin-top: 10px;
+}
+.chack label{
+    color: rgb(56, 118, 137);
+    font-weight: 300;
+    font-size: 15px;
+}
+.chack{
+  align-items: center;
+}
+
+#index,a {
+    border: 2px solid rgb(76, 76, 209);
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 4px 3px;
+    background-color: #c187b2;
+    color: white;
+    &:hover{
+        background-color: #519565;
+    }
+}
+
+
+
